@@ -7,57 +7,100 @@
 		Academia de Musica BEBD
 	</title>
 
-<link rel = "preconnect" href = "https://fonts.gstatic.com">
-<link href = "https://fonts.googleapis.com/css2? family = Audiowide & display = swap" rel = "hoja de estilo ">
-<link rel="stylesheet" type="text/css" href="Style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 </head>
 
 <body>
 	
 	<header>
-			<h1> BEBD - Academia de Musica </h1>
+		<h1> BEBD - Academia de musica </h1>
+		<link rel="stylesheet" type="text/css" href="Style.css">
 
-			<div class="clase">
-				<ul>
-					<li> <a href="index1.html"> Home </a> </li>
-					<li> <a href="Academia.html"> Academia </a> </li>
-					<li> <a href="Profesores.html"> Profesores </a>
+		<div class="container">
 
-					<ul>
-						
-						<li>Bajo Electrico</li>
-						<li>Piano</li>
-						<li>Guitarra</li>
-						<li>Bateria</li>
+			<div class="btn-group btn-group-md">
+				<a href="Index.html" class="btn btn-info" role="button">Home</a>
+				<a href="Academia.html" class="btn btn-info" role="button">Academia</a>
+				<a href="Talleres.html" class="btn btn-info" role="button">Talleres</a>
+				<a href="Contacto.html" class="btn btn-info" role="button">Contacto</a>
 
-					</ul>
-					</li>
+				<div class="btn-group">
 
-					<li> <a href="Talleres.html"> Talleres </a> </li>
-					<li> <a href="Contacto.html"> Contacto </a> </li>
-				</ul>
+				 <button class="btn btn-warning dropdown-toggle" data-toggle="dropdown"> Profesores </button>
+
+				 <div class="dropdown-menu">
+
+				 	<a href="Profesores.html" class="dropdown-item"> Bajo Electrico</a>
+				 	<a href="" class="dropdown-item"> Guitarra</a>
+				 	<a href="" class="dropdown-item"> Piano</a>
+				 	<a href="" class="dropdown-item"> Bateria</a>
+				 	
+				 </div>
+
+				 </div>
+
 			</div>
-		</header>
 
-		<hr>
 
-		<main>
+		</div>
+	</header>
 
-		<div class="contenedor2">
-			<p> Ultimos cupos para los talleres de verano !! </p>
+	<hr>
+
+	<div class="container">
+
+
+		<div class="row">
+			
+			<div class="col-xs-12 col-sm-6 col-md-3">
+
+				<p> JAZZ - Nace a finales del siglo XIX en EEUU y resulta uno de los géneros musicales más difíciles de definir ya que cuenta con infinidad de subgéneros. Así pues, el jazz no conforma una identidad tan sólida como el de otros tipos de música. Lo que sí podemos asegurar es que se trata de un estilo musical procedente de la cultura afroamericana que surgió sobre la década de los 20.</p>
+				
+			</div>
+
+			<div class="col-xs-12 col-sm-6 col-md-3">
+
+				<p> SOUL - El Soul es una combinación de ritmos del doo-wop y del Góspel. Se desarrolló en los EEUU a finales de la década de 1950. Mientras el gospel era uno de los tipos de música más alegres, el soul resulta más lento y profundo.</p>
+				
+			</div>
+
+			<div class="col-xs-12 col-sm-6 col-md-3">
+
+				<p> BLUES - Se caracteriza por tener una estructura de doce compases cuyo origen se remonta a las comunidades afroamericanas de Estados Unidos de principios del siglo XX. Desde entonces se han desarrollado muchos estilos, algunos en pequeñas ciudades del sur de EEUU y otros en grandes ciudades como Chicago o Nueva Orleans.</p>
+				
+			</div>
+
+			<div class="col-xs-12 col-sm-6 col-md-3">
+
+				<p> MÚSICA POP - Su origen ronda la década de los 50 y se define como toda música popular, por tanto puede cntener distintos subgéneros. De hecho, abarca un gran abanico de tipos de música. Algunos de los más famosos son: el Power pop, el Dance-pop o el Pop latino. Y sus artistas de referencia: Michael Jackson, Madonna, Britney Spears y Shakira.</p>
+				
+			</div>
+
 		</div>
 
-		</main>
+	</div>
 
-		<br>
+	<br>
 
-		<hr>
+	<hr>
 
-		<footer class="clase2">
-			Dirección: Moneda 970
-			Telefonos: 22222222 - 999999999
-		</footer>
+	<footer class="clase2">
+		Dirección: Moneda 970
+		Telefonos: 22222222 - 999999999
 
-	</body>
-	</html>
+		<ul class="nav nav-pills">
+			<li class="nav-item"><a href="" class="nav-link">Facebook</a></li>
+			<li class="nav-item"><a href="" class="nav-link">Instagram</a></li>
+			<li class="nav-item"><a href="" class="nav-link">Telegram</a></li>			
+		</ul>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
