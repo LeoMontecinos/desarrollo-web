@@ -7,20 +7,19 @@
 
 header{
 
-	background-color: orange;
+	background-color: red;
 	background-repeat: no-repeat;
 	background-position: right;
-	background-size: 50px 100px;
+	background-size: 50% 100%;
     background-size: 15% 100%;
 }
 
 h1{
 
 	color:black;
-	font-family: 'Audiowide', cursiva;
+	font-family: Perpetua;
 	text-align: center;
-	text-decoration: underline;
-	word-spacing: 10px
+	word-spacing: 10%;
 }
 
 p{
@@ -55,7 +54,7 @@ ul{
 li{
 	display: inline-block;
 	width: 10%;
-	font-size: 20px;
+	font-size: 15px;
 	position: relative;
 }
 
@@ -73,12 +72,13 @@ ul li:hover ul{
 }
 
  footer{
- 	background-color: orange;	
+ 	background-color: red;
+ 	text-align: center;	
  
  }
 
   main{
- 	background-color: orange;
+ 	background-color: white;
  
  }
  .contenedor{
@@ -95,43 +95,46 @@ ul li:hover ul{
  }
 
 .padre{
-	background-color: orange;
-	width: 1340px;
-	height: 600px;
+	background-color: white;
+	width: 200px;
+	height: 150px;
 	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
+	flex-direction: column-reverse;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	align-items: center;
+	align-content: center;
 
 }
 
 .hijo1, .hijo2, .hijo3, .hijo4{
-	border: solid 2px blue;
+	border: solid 2px black;
 	/*flex-basis: 100px; */
-	width: 200px;
+	width: 335px;
+	font-family: Perpetua;
+	color: black;
 	
 }
 
 .hijo1{
-	background-color: coral;
+	background-color: #FE2E2E;
 	flex-shrink: 0;
 }
 
 .hijo2{
-	background-color: coral;
+	background-color: #FE2E2E;
 	flex-shrink: 0;
 }
 
 
 .hijo3{
-	background-color: coral;
+	background-color: #FE2E2E;
 	flex-shrink: 0;
 }
 
 
 .hijo4{
-	background-color: coral;
+	background-color: #FE2E2E;
 	flex-shrink: 0;
 }
 
@@ -166,7 +169,7 @@ ul li:hover ul{
 
 .contenedor3 {
 	
-	background-image: linear-gradient(to top, greenyellow, orange);
+	background-image: linear-gradient(to top, greenyellow, white);
 	
 	display: grid;
 	grid-template-columns: 100%; 
